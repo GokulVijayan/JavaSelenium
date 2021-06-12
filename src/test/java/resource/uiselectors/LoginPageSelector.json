@@ -1,0 +1,7 @@
+{
+  "username": "txtusername",
+  "password": "txtpassword",
+  "loginButton": "//button[contains(text(),'Login')]",
+  "clickHereLink": "//a[contains(text(),'here')]",
+  "loginPage": "//span[contains(text(),'Login')]"
+}
