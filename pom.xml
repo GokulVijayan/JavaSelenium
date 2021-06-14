@@ -51,7 +51,7 @@
      <artifactId>Xhaft</artifactId>
      <scope>system</scope>
      <version>1.0</version>
-     <systemPath>${basedir}/src/lib/Web-Xhaft.jar</systemPath>
+     <systemPath>${basedir}/src/Web-Xhaft.jar</systemPath>
    </dependency>
 	<dependency>
 		<groupId>org.testng</groupId>
