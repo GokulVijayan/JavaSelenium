@@ -41,7 +41,7 @@ public class ReportModifier extends TestListenerAdapter {
 		DocumentBuilder docBuilder;
 		try {
 			docBuilder = docFactory.newDocumentBuilder();
-			doc = docBuilder.parse(Constant.currentDirectory+"\\testng.xml"); // path to your testng.xml
+			doc = docBuilder.parse(Constant.currentDirectory+"//testng.xml"); // path to your testng.xml
 			NodeList parameterNodes = doc.getElementsByTagName("test");
 			scriptCount=parameterNodes.getLength();
 			System.out.println("Total Number of tests to be executed are : " + parameterNodes.getLength());
